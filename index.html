@@ -1,0 +1,409 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Guillaume DUFRENE - CV</title>
+<style>
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+    margin: 0;
+}
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+.clearfix::after, .clearfix::before {
+    content: " ";
+    display: table;
+}
+
+.profile {
+    background: #fff;
+    width: 33%;
+    float: left;
+    color: #666;
+    display: block;
+    padding-left: 5px;
+}
+.experience {
+    background: #3d3e42;
+    width: 65%;
+    float: left;
+    position: relative;
+    color: #9099a0;
+    font-weight: 300;
+    min-height: 100%;
+    min-height: 100vh;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    border-left: solid 1px #3d3e42;
+}
+
+
+.profile h1 {
+    font-size: 2em;
+    text-align: left;
+    font-family: "Arial", sans-serif;
+    color: #4a4e51;
+    line-height: 1em;
+    text-align: center;
+}
+.profile > img {
+  width: 160px;
+  border-radius: 50%;
+  margin: 10px auto;
+  display: block;
+  border: solid 1px #CCC;
+}
+.profile .list-titles {
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    width: 20%;
+    color: #4a4e51;
+}
+.profile .list-content {
+    float: left;
+    width: 80%;
+    text-align: left;
+    font-weight: 300;
+}
+
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h3 {
+    color: #33aa66;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-weight: 400;
+}
+.experience h3 {
+  color: #66cc99;
+}
+
+.experience .company {
+    text-align: left;
+    color:  white;
+    margin-bottom: 5px;
+}
+.experience .job-wrapper {
+    width: 70%;
+    float: left;
+    text-align: left;
+    padding-right: 5%;
+    margin-bottom: 60px;
+}
+
+.company {
+  margin-top: 10px;
+}
+.company .title {
+  float: left;
+  width: 25%;
+}
+.company .position {
+  float: left;
+  width: 75%;
+}
+.job::after, .company::after {
+  clear: both;
+}
+br.spacer::after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+.job, .company {
+  margin-left: 5px;
+}
+.job .time {
+  float: left;
+  width: 25%;
+}
+.job .description {
+  float: left;
+  text-align: justify;
+  width: 75%;
+  font-family: Verdana;
+  font-size: 14px;
+}
+
+.job .description p {
+  padding-right: 5px;
+  margin-bottom: 5px;
+}
+.job .description ul {
+  list-style: circle;
+}
+
+.skills {
+  margin-top: 15px;
+  width: 80%;
+}
+
+.skills .skill-percentage {
+    margin-bottom: 10px;
+    position: relative;
+    line-height: 20px;
+}
+
+.skills .skill-percentage::before {
+    content: "";
+    height: 1px;
+    background: #33aa66;
+    border-bottom: solid 5px #33aa66;
+    position: absolute;
+    margin-top: 3px;
+    bottom: 0;
+}
+
+.skills .skill-percentage::after {
+    content: "";
+    width: 100%;
+    height: 6px;
+    background: #AAA;
+    display: block;
+    margin-top: 3px;
+}
+
+.skills .skill-percentage.p90::before { width: 90%; }
+.skills .skill-percentage.p70::before { width: 70%; }
+.skills .skill-percentage.p60::before { width: 60%; }
+
+a::after {
+  content: " 🌐 ";
+}
+a:link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  border-bottom: dashed 1px #CCC;
+}
+a:visited {
+  color: inherit;
+}
+
+</style>
+<style type="text/css" media="print">
+a::after {
+  content: "";
+}
+</style>
+
+  </head>
+  <body>
+
+<div class="container">
+
+  <div class="profile">
+
+    <img src="https://media-exp1.licdn.com/dms/image/C5603AQEpW8LclA7FsQ/profile-displayphoto-shrink_200_200/0/1517731235010?e=1657756800&v=beta&t=oCAMlrswIc9GIToPEusduJ1Y9DOaC0R_NM0C3TXla9I" />
+
+    <h1>Guillaume DUFRENE</h1>
+
+    <div class="contact-info">
+      <ul class="list-titles">
+        <li>Call</li>
+        <li>Mail</li>
+        <li>Web</li>
+        <li>Home</li>
+      </ul>
+      <ul class="list-content">
+        <li>+33 666 667 932</li> <!-- YOUR PHONE NUMBER  -->
+        <li>guillaume.dufrene@axa.fr</li> <!-- YOUR EMAIL -->
+        <li><a href="https://github.com/gdufrene">github.com/gdufrene</a></li> <!-- YOUR WEBSITE  -->
+        <li>Roubaix, France</li> <!-- YOUR STATE AND COUNTRY  -->
+      </ul>
+    </div>
+
+    <div style="clear: both; display: table"></div>
+
+    <div class="skills clearfix">
+      <h3 class="section-title">Skills</h3>  <!-- YOUR SET OF SKILLS  -->
+        <ul>
+          <li class="skill-percentage p90">Java - SpringBoot</li>
+          <li class="skill-percentage p90">SOA - EDA</li>
+          <li class="skill-percentage p70">VM - Containers</li>
+          <li class="skill-percentage p70">Linux environment</li>
+          <li class="skill-percentage p60">NodeJS</li>
+          <li class="skill-percentage p60">PHP</li>
+        </ul>
+    </div>
+
+    <div class="education clearfix">
+      <h3 class="section-title">Education</h3>
+      <p>Master's Degree in Computer Science</p>
+      <p>University of Lille - 2006</p>
+    </div>
+
+    <div class="hobbies clearfix">
+      <h3 class="section-title">Hobbies</h3>  <!-- YOUR SET OF SKILLS  -->
+        <p>Glider Pilot and Flight Instructor</p>
+        <p>Gameboard Geek</p>
+    </div>
+
+
+  </div>
+
+  <section class="experience section-padding">
+
+      <h3 class="experience-title">Experience</h3>
+      
+      <div class="experience-wrapper">
+        <div class="company clearfix">
+          <div class="title">Axa</div>
+          <div class="position">SOA Technical Leader</div>
+        </div>
+        <div class="job clearfix">
+          <div class="time">2018 - Present</div>
+          <div class="description">
+            <p>I work in a Tribe dedicated to Health and Protection insurance, focused on quotes and contract management.
+            As a Technical Leader, I'm in charge of Quality and Relability of our products.
+            I engage software craftmanship pratices in our team to ensure code maintainability and evolvability.
+            I'm also a main contributor of our technical stack based on Spring Boot.
+            We ease cloud deployment of API that orchestrate interactions between our Application Systems.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-wrapper">
+        <div class="company clearfix">
+          <div class="title">University of Lille</div>
+          <div class="position">Contractor Teacher</div>
+        </div>
+        <div class="job clearfix">
+          <div class="time">2006 - Present</div>
+          <div class="description">
+            <p>Co-realisator of the MOOC : <br/>
+            <a href="https://www.fun-mooc.fr/courses/course-v1:lille1+54005+session01/about">Java EE Spring, ready to work"</a> (french course)
+            </p>
+            <p>
+            My current courses are about :
+            <ul>
+              <li>JavaEE, Spring and its ecosystem (Tomcat, Maven, Docker) for master-degree students</li>
+              <li>Java web development for licence-degree students</li>
+            </ul>
+            </p>
+            <p>
+            In the past I used to teach :
+            <ul>
+              <li>Embedded C programming for ARM processors</li>
+              <li>Java user interface developement with Swing</li>
+              <li>JavaScript web development</li>
+              <li>Database usage and SQL langage</li>
+              <li>Development methodology with UML and Merise</li>
+              <li>System programming in a linux environment</li>
+              <li>Programming language basics : Java, Ada</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-wrapper">
+        <div class="company clearfix">
+          <div class="title">Keyneosoft</div>
+          <div class="position">Technical Product Manager</div>
+        </div>
+        <div class="job clearfix">
+          <div class="time">2016 - 2017</div>
+          <div class="description">
+            <p>Keyneosoft provide a platform to create new digital retail strategies.
+            Based on a homemade java component framework "Keybuild", deployed as a Saas solution or on-premise,
+            as a web-based solution or through a mobile application.
+            <ul>
+              <li>Leading development of all backend activies Java / Php</li>
+              <li>Supporting server infrastructure (linux)</li>
+              <li>Prototyping new use cases, R&D</li>
+              <li>Team manager</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-wrapper">
+        <div class="company clearfix">
+          <div class="title">Webpulser</div>
+          <div class="position">CTO</div>
+        </div>
+        <div class="job clearfix">
+          <div class="time">2012 - 2015</div>
+          <div class="description">
+            <p>Webpulser is a web-agency providing support for creating showcase or e-commerce websites,
+            based on some Php open-source solutions such as wordpress and prestashop.
+            Webpulser was also engaged in many digital retail innovation projects (3D scanning and printing, object customization ...).
+            I was the technical director of this small agency (10 people average).
+            <ul>
+              <li>Strong engagement in the agency strategy and management with the founder</li>
+              <li>Leading many customer relationship, from pre-sales to after-sales</li>
+              <li>Managing tech activities with agile methodology (Scrum)</li>
+              <li>In charge of our hosting solution : baremetal servers on linux with KVM/Qemu virtual environments</li>
+            </ul>
+            </p>
+        </div>
+      </div>
+
+      <div class="experience-wrapper">
+        <div class="company clearfix">
+          <div class="title">Argia Enginerring</div>
+          <div class="position">Senior Software Engineer</div>
+        </div>
+        <div class="job clearfix">
+          <div class="time">2008 - 2011</div>
+          <div class="description">
+            <p>Technical Assistance for Adeo Group.</p>
+            <p>Java fullstack developer and technical leader for a new e-commerce framework.
+            This framework aims to provide foundations for all e-commerce activities of Adeo group business units.
+            </p>
+        </div>
+      </div>
+
+      <div class="experience-wrapper">
+        <div class="company clearfix">
+          <div class="title">Inria</div>
+          <div class="position">Research Engineer</div>
+        </div>
+        <div class="job clearfix">
+          <div class="time">2006 - 2008</div>
+          <div class="description">
+            <p>In "ADAM" team, as a PhD student, R&D activities around Service and Component-based Architecture for
+            self-adaptive software engineering.</p>
+            <p>Author of a scientific paper about Heterogeneous Service Architecture Description Language, in CAL-2007 proceedings (Montreal, CA)<p>
+        </div>
+      </div>
+
+      <div class="experience-wrapper">
+        <div class="company clearfix">
+          <div class="title">Leroy Merlin</div>
+          <div class="position">Junior Software Engineer</div>
+        </div>
+        <div class="job clearfix">
+          <div class="time">2002 - 2005</div>
+          <div class="description">
+            <p>PHP development of many tools for after-sales management and supplier relations.
+            Providing support with web analytics tools to publish audience of e-commerce activities.
+            Html/js/css development.</p>
+        </div>
+      </div>
+
+  </section>
+</div>
+
+
+  </body>
+</html>
